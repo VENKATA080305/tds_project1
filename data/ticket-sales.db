@@ -1,0 +1,10 @@
+CREATE TABLE tickets (
+    id INTEGER PRIMARY KEY,
+    type TEXT,
+    units INTEGER,
+    price REAL
+);
+
+INSERT INTO tickets (type, units, price) VALUES ('Gold', 2, 50);
+INSERT INTO tickets (type, units, price) VALUES ('Gold', 5, 50);
+INSERT INTO tickets (type, units, price) VALUES ('Silver', 3, 30);

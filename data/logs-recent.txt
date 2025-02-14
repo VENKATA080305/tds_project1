@@ -1,0 +1,10 @@
+Log Entry 1: Tenth and final log file's first entry.
+Log Entry 1: Ninth log file's first entry.
+Log Entry 1: Here is the first entry for the eighth log.
+Log Entry 1: Log entry 1 in the seventh log file.
+Log Entry 1: Starting log file 6 with the first entry.
+Log Entry 1: Fifth log file with a fresh start.
+Log Entry 1: A new log file, the fourth one, starts here.
+Log Entry 1: Log file three starts here.
+Log Entry 1: This is another log file's first log entry.
+Log Entry 1: This is the first log entry.
