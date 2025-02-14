@@ -18,3 +18,16 @@ def list_files(directory, extension=""):
     if not os.path.exists(directory):
         return []
     return [os.path.join(directory, f) for f in os.listdir(directory) if f.endswith(extension)]
+DATA_DIR = "/data"
+
+#TASK B1 AND B2
+
+def is_safe_path(path):
+    """Ensure the path is inside /data directory."""
+    abs_path = os.path.abspath(path)
+    return abs_path.startswith(DATA_DIR)
+
+
+def delete_file(path):
+    """Deny all delete requests (B2)."""
+    raise PermissionError("Deletion of files is not allowed")
