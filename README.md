@@ -36,9 +36,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Step 4: Run the Application
+### Step 4: Run the Application first and second for task A and B respectively
 ```sh
 pytest tests/test_task_executor.py
+pytest tests/test_task_executor2 
 ```
 
 ---
@@ -58,6 +59,23 @@ To execute specific tasks, the following modules handle different operations:
 | A8 | Extract credit card number from an image using LLM | `credit_card_extractor.py` |
 | A9 | Find similar comments using embeddings | `comment_analyzer.py` |
 | A10 | Calculate total sales for "Gold" tickets in an SQLite database | `ticket_sales.py` |
+
+## 🛠️ Running Instructions for Task B  
+To execute specific tasks, the following modules handle different operations:  
+
+| Task  | Description | Module |
+|-------|-------------|----------|
+| B1 | Ensure data outside `/data` is never accessed or exfiltrated | `file_handler.py` |
+| B2 | Ensure data is never deleted anywhere on the file system | `file_handler.py` |
+| B3 | Fetch data from an API and save it | `api_fetcher.py` |
+| B4 | Clone a Git repo and make a commit | `git_handler.py` |
+| B5 | Run SQL queries on SQLite or DuckDB | `database_query.py` |
+| B6 | Scrape data from a website | `web_scraper.py` |
+| B7 | Compress or resize an image | `image_processor.py` |
+| B8 | Transcribe audio from an MP3 file | `audio_transcriber.py` |
+| B9 | Convert Markdown to HTML | `markdown_converter.py` |
+| B10 | Filter a CSV file and return JSON data via API | `csv_filter.py` |
+
 
 Additional utility files:
 - `file_handler.py`: Handles file I/O operations.
